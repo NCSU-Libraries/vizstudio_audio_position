@@ -14,9 +14,6 @@ _*
 *.zip
 **/*.zip
 
-# Ignore generated playlist
-js/playlist.js
-
 # Ignore tmp, filesystem stuff, etc
 .DS_Store
 **/.DS_Store

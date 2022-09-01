@@ -25,7 +25,7 @@ js/playlist.js
 **/*.mp4
 **/*.mp3
 **/*.wav
-!media/video/hello*
+!**/media/video/hello*
 
 # Ignore tmp, filesystem stuff, etc
 .DS_Store

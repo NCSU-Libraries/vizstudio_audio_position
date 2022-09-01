@@ -19,7 +19,7 @@ js/playlist.js
 
 # Ignore media files
 **/media/*
-**/media/**/*
+# **/media/**/*
 !**/media/**/.keep
 **/*.m4v
 **/*.mp4

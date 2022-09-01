@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visualization Studio HTML template</title>
+  <link  rel="stylesheet" type="text/css" href="css/vizstudio.css"/>
+  <link  rel="stylesheet" type="text/css" href="css/vizstudio_prez.css"/>
+</head>
+
+<body>
+
+  <!-- All visible content is contained within .vizstudio -->
+  <main class="vizstudio">
+
+    <!-- zones can be contained within .zone-wrapper to facilitate animation and other scriptable behavior. -->
+    <!-- This element is optional. -->
+    <div class="zone-wrapper">
+
+      <!-- Follow the example above to add content to other zones -->
+      <div class="zone zone-1">
+        <div class="wrapper"><video src="media/video/hello2.mp4"></div>
+      </div>
+
+      <div class="zone zone-2">
+        <div class="wrapper"><video src="media/video/hello.mp4"></div>
+      </div>
+
+      <div class="zone zone-3">
+        <div class="wrapper"><video src="media/video/hello2.mp4"></div>
+      </div>
+
+      <div class="zone zone-4">
+        <div class="wrapper"><video src="media/video/hello.mp4"></div>
+      </div>
+
+      <div class="zone zone-5">
+        <div class="wrapper"><video src="media/video/hello2.mp4"></div>
+      </div>
+
+      <div class="zone zone-6">
+        <div class="wrapper"><video src="media/video/hello.mp4"></div>
+      </div>
+
+      <div class="zone zone-7">
+        <div class="wrapper"><video src="media/video/hello2.mp4"></div>
+      </div>
+
+      <div class="zone zone-8">
+        <div class="wrapper"><video src="media/video/hello.mp4"></div>
+      </div>
+
+      <div class="zone zone-9">
+        <div class="wrapper"><video src="media/video/hello2.mp4"></div>
+      </div>
+
+      <div class="zone zone-10">
+        <div class="wrapper"><video src="media/video/hello.mp4"></div>
+      </div>
+
+      <div class="zone zone-11">
+        <div class="wrapper"><video src="media/video/hello2.mp4"></div>
+      </div>
+
+      <div class="zone zone-12">
+        <div class="wrapper"><video src="media/video/hello.mp4"></div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script type="text/javascript" src="js/vizstudio_utils.js"></script>
+  <script type="text/javascript" src="js/vizstudio_audio_position.js"></script>
+  <script type="text/javascript" src="js/audio_test.js"></script>
+  <script>
+    new AudioTest();
+  </script>
+
+  <!-- this Javascript will scale the display down to fit your browser window, very useful for development -->
+  <script type="text/javascript" src="js/transform_scale.js"></script>
+
+</body>
+
+</html>

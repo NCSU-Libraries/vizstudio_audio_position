@@ -1,0 +1,33 @@
+# Ignore all directories except those specified (some don't exist yet)
+*/
+!js/
+!javascript/
+!css/
+!media/
+!images/
+!assets/
+
+# ignore work files and zips
+_*
+**/_*
+**/_*/**
+*.zip
+**/*.zip
+
+# Ignore generated playlist
+js/playlist.js
+
+# Ignore media files
+**/media/*
+**/media/**/*
+!**/media/**/.keep
+**/*.m4v
+**/*.mp4
+**/*.mp3
+**/*.wav
+!media/video/hello*
+
+# Ignore tmp, filesystem stuff, etc
+.DS_Store
+**/.DS_Store
+**/tmp

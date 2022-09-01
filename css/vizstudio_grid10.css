@@ -1,0 +1,134 @@
+/* DEPRICATED! THESE STYLES HAVE BEEN MOVED TO vizstudio.css */
+
+.grid-10 .zone {
+  width: 1536px;
+}
+
+/* position classes */
+
+.grid-10 .zone.zone-1 {
+  left: 0;
+}
+
+.grid-10 .zone.zone-2  {
+  left: 1536px;
+}
+
+.grid-10 .zone.zone-3  {
+  left: 3072px;
+}
+
+.grid-10 .zone.zone-4  {
+  left: 4608px;
+}
+
+.grid-10 .zone.zone-5  {
+  left: 6144px;
+}
+
+.grid-10 .zone.zone-6  {
+  left: 7680px;
+}
+
+.grid-10 .zone.zone-7  {
+  left: 9216px;
+}
+
+.grid-10 .zone.zone-8  {
+  left: 10752px;
+}
+
+.grid-10 .zone.zone-9  {
+  left: 12288px;
+}
+
+.grid-10 .zone.zone-10  {
+  left: 13824px;
+}
+
+
+/* span classes */
+
+.grid-10 .zone.zone-1.span-10 {
+  width: 15360px;
+}
+
+.grid-10 .zone.span-9,
+.grid-10 .zone.zone-2.span-10 {
+  width: 13824px;
+}
+
+.grid-10 .zone.span-8,
+.grid-10 .zone.zone-3.span-9,
+.grid-10 .zone.zone-3.span-10 {
+  width: 12288px;
+}
+
+.grid-10 .zone.span-7,
+.grid-10 .zone.zone-4.span-8,
+.grid-10 .zone.zone-3.span-9,
+.grid-10 .zone.zone-4.span-10 {
+  width: 10752px;
+}
+
+.grid-10 .zone.span-6,
+.grid-10 .zone.zone-5.span-7,
+.grid-10 .zone.zone-5.span-8,
+.grid-10 .zone.zone-5.span-9,
+.grid-10 .zone.zone-5.span-10 {
+  width: 9216px;
+}
+
+.grid-10 .zone.span-5,
+.grid-10 .zone.zone-6.span-6,
+.grid-10 .zone.zone-6.span-7,
+.grid-10 .zone.zone-6.span-8,
+.grid-10 .zone.zone-6.span-9,
+.grid-10 .zone.zone-6.span-10 {
+  width: 7680px;
+}
+
+.grid-10 .zone.span-4,
+.grid-10 .zone.zone-7.span-5,
+.grid-10 .zone.zone-7.span-6,
+.grid-10 .zone.zone-7.span-7,
+.grid-10 .zone.zone-7.span-8,
+.grid-10 .zone.zone-7.span-9,
+.grid-10 .zone.zone-7.span-10 {
+  width: 6144px;
+}
+
+.grid-10 .zone.span-3,
+.grid-10 .zone.zone-8.span-4,
+.grid-10 .zone.zone-8.span-5,
+.grid-10 .zone.zone-8.span-6,
+.grid-10 .zone.zone-8.span-7,
+.grid-10 .zone.zone-8.span-8,
+.grid-10 .zone.zone-8.span-9,
+.grid-10 .zone.zone-8.span-10 {
+  width: 4608px;
+}
+
+.grid-10 .zone.span-2,
+.grid-10 .zone.zone-9.span-3,
+.grid-10 .zone.zone-9.span-4,
+.grid-10 .zone.zone-9.span-5,
+.grid-10 .zone.zone-9.span-6,
+.grid-10 .zone.zone-9.span-7,
+.grid-10 .zone.zone-9.span-8,
+.grid-10 .zone.zone-9.span-9,
+.grid-10 .zone.zone-9.span-10 {
+  width: 3072px;
+}
+
+.grid-10 .zone.zone-10.span-2,
+.grid-10 .zone.zone-10.span-3,
+.grid-10 .zone.zone-10.span-4,
+.grid-10 .zone.zone-10.span-5,
+.grid-10 .zone.zone-10.span-6,
+.grid-10 .zone.zone-10.span-7,
+.grid-10 .zone.zone-10.span-8,
+.grid-10 .zone.zone-10.span-9,
+.grid-10 .zone.zone-10.span-10 {
+  width: 1536px;
+}

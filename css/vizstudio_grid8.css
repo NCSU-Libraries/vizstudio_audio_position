@@ -1,0 +1,89 @@
+/* DEPRICATED! THESE STYLES HAVE BEEN MOVED TO vizstudio.css */
+
+.grid-8 .zone {
+  width: 1920px;
+}
+
+/* grid-8 position classes */
+
+.grid-8 .zone.zone-1 {
+  left: 0;
+}
+
+.grid-8 .zone.zone-2  {
+  left: 1920px;
+}
+
+.grid-8 .zone.zone-3  {
+  left: 3840px;
+}
+
+.grid-8 .zone.zone-4  {
+  left: 5760px;
+}
+
+.grid-8 .zone.zone-5  {
+  left: 7680px;
+}
+
+.grid-8 .zone.zone-6  {
+  left: 9600px;
+}
+
+.grid-8 .zone.zone-7  {
+  left: 11520px;
+}
+
+.grid-8 .zone.zone-8  {
+  left: 13440px;
+}
+
+/* span classes */
+
+.grid-8 .zone.zone-1.span-8 {
+  width: 15360px;
+}
+
+.grid-8 .zone.span-7,
+.grid-8 .zone.zone-2.span-8 {
+  width: 13440px;
+}
+
+.grid-8 .zone.span-6,
+.grid-8 .zone.zone-3.span-7,
+.grid-8 .zone.zone-3.span-8 {
+  width: 11520px;
+}
+
+.grid-8 .zone.span-5,
+.grid-8 .zone.zone-4.span-6,
+.grid-8 .zone.zone-4.span-7,
+.grid-8 .zone.zone-4.span-8 {
+  width: 9600px;
+}
+
+.grid-8 .zone.span-4,
+.grid-8 .zone.zone-5.span-5,
+.grid-8 .zone.zone-5.span-6,
+.grid-8 .zone.zone-5.span-7,
+.grid-8 .zone.zone-5.span-8 {
+  width: 7680px;
+}
+
+.grid-8 .zone.span-3,
+.grid-8 .zone.zone-6.span-4,
+.grid-8 .zone.zone-6.span-5,
+.grid-8 .zone.zone-6.span-6,
+.grid-8 .zone.zone-6.span-7,
+.grid-8 .zone.zone-6.span-8 {
+  width: 5760px;
+}
+
+.grid-8 .zone.span-2,
+.grid-8 .zone.zone-7.span-3,
+.grid-8 .zone.zone-7.span-4,
+.grid-8 .zone.zone-7.span-6,
+.grid-8 .zone.zone-7.span-7,
+.grid-8 .zone.zone-7.span-8 {
+  width: 3840px;
+}

@@ -1,0 +1,167 @@
+/* DEPRICATED! THESE STYLES HAVE BEEN MOVED TO vizstudio.css */
+
+.zone {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 1080px;
+  width: 1280px;
+}
+
+
+.zone.zone-1 {
+  left: 0;
+}
+
+.zone.zone-2  {
+  left: 1280px;
+}
+
+.zone.zone-3  {
+  left: 2560px;
+}
+
+.zone.zone-4  {
+  left: 3840px;
+}
+
+.zone.zone-5  {
+  left: 5120px;
+}
+
+.zone.zone-6  {
+  left: 6400px;
+}
+
+.zone.zone-7  {
+  left: 7680px;
+}
+
+.zone.zone-8  {
+  left: 8960px;
+}
+
+.zone.zone-9  {
+  left: 10240px;
+}
+
+.zone.zone-10  {
+  left: 11520px;
+}
+
+.zone.zone-11  {
+  left: 12800px;
+}
+
+.zone.zone-12  {
+  left: 14080px;
+}
+
+
+
+.zone.span-2,
+.zone.zone-11.span-3,
+.zone.zone-11.span-4 {
+  width: 2560px;
+}
+
+.zone.span-3,
+.zone.zone-10.span-4,
+.zone.zone-10.span-5,
+.zone.zone-10.span-6,
+.zone.zone-10.span-7,
+.zone.zone-10.span-8,
+.zone.zone-10.span-9,
+.zone.zone-10.span-10,
+.zone.zone-10.span-11,
+.zone.zone-10.span-12 {
+  width: 3840px;
+}
+
+.zone.span-4,
+.zone.zone-9.span-5,
+.zone.zone-9.span-6,
+.zone.zone-9.span-7,
+.zone.zone-9.span-8,
+.zone.zone-9.span-9,
+.zone.zone-9.span-10,
+.zone.zone-9.span-11,
+.zone.zone-9.span-12 {
+  width: 5120px;
+}
+
+.zone.span-5,
+.zone.zone-8.span-6,
+.zone.zone-8.span-7,
+.zone.zone-8.span-8,
+.zone.zone-8.span-9,
+.zone.zone-8.span-10,
+.zone.zone-8.span-11,
+.zone.zone-8.span-12 {
+  width: 6400px;
+}
+
+
+.zone.span-6,
+.zone.zone-7.span-7,
+.zone.zone-7.span-8,
+.zone.zone-7.span-9,
+.zone.zone-7.span-10,
+.zone.zone-7.span-11,
+.zone.zone-7.span-12 {
+  width: 7680px;
+}
+
+
+.zone.span-7,
+.zone.zone-6.span-8,
+.zone.zone-6.span-9,
+.zone.zone-6.span-10,
+.zone.zone-6.span-11,
+.zone.zone-6.span-12 {
+  width: 8960px;
+}
+
+
+.zone.span-8,
+.zone.zone-5.span-9,
+.zone.zone-5.span-10,
+.zone.zone-5.span-11,
+.zone.zone-5.span-12 {
+  width: 10240px;
+}
+
+
+.zone.span-9,
+.zone.zone-4.span-10,
+.zone.zone-4.span-11,
+.zone.zone-4.span-12 {
+  width: 11520px;
+}
+
+
+.zone.span-10,
+.zone.zone-3.span-11,
+.zone.zone-3.span-12 {
+  width: 12800px;
+}
+
+
+.zone.span-11,
+.zone.zone-2.span-12 {
+  width: 14080px;
+}
+
+
+.zone.zone-12.span-2,
+.zone.zone-12.span-3,
+.zone.zone-12.span-4 {
+  width: 1280px;
+}
+
+.zone.zone-1.full,
+.zone.zone-1.span-12 {
+  width: 15360px;
+}
